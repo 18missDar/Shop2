@@ -22,9 +22,6 @@
 
 </parent>
 
-    <profile>
-        <id>postgres</id>
-
 
 <dependencies>
 
@@ -144,19 +141,11 @@
    </dependency>
 
      </dependencies>
-        <activation>
-            <activeByDefault>true</activeByDefault>
-        </activation>
-    </profile>
-
     <properties>
 
     <java.version>1.8</java.version>
 
     </properties>
-
-    <profile>
-        <id>heroku</id>
 
     <build>
     <plugins>
@@ -193,6 +182,5 @@
 </plugins>
 
 </build>
-    </profile>
 
 </project>
